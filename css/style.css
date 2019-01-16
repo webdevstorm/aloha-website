@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-LightItalic.eot');
+    src: url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-LightItalic.woff') format('woff'),
+        url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-LightItalic.svg') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype'),
+        url('../fonts/Raleway-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype'),
+        url('../fonts/Raleway-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-MediumItalic.eot');
+    src: url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-MediumItalic.woff') format('woff'),
+        url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-MediumItalic.svg') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot');
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.svg') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Italic.eot');
+    src: url('../fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Italic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+.header-container {
+min-width: 840px;
+max-height: 100px;
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+}
+
+.logo {
+    margin: 0 auto;
+    flex:1 0 25%;
+    padding-left: 80px;
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+.cart {
+    margin: 0 auto;
+    flex:1 0 25%;
+    margin-top: 10px;
+    padding-right: 40px;
+    margin-right: -400px;
+}
+
+.resize {
+    max-width: 60%;
+    max-height: 60%;
+}
+.resize-2 {
+ max-width: 75%;
+ max-height: 75%;
+}
+.main-navigation {
+    flex:1 0 50%;
+
+}
+.main-navigation ul{
+    padding-top: 20px;
+    margin: 20px auto;
+    list-style:none;
+    display:inline-block;
+    justify-content: space-between;
+}
+.main-navigation li {
+    list-style:none;
+    display:inline;
+    text-transform:uppercase;
+    padding: 20px;
+    
+}
+
+body {
+ margin: 0;
+ align-content: center;
+ font-family:'Raleway' ;
+ font-style:italic;
+ font-weight:lighter;
+}
+.h1 {
+    font-family: "Playfair-Display";
+}
+
+.h3 {
+color: red;
+}
+
+.p {
+font-size:16px; 
+font-style: italic; 
+}
+
+.container {  
+margin: 0 auto; 
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.carousel {
+display: flex;
+flex-flow: row wrap;
+}
+
+.info {
+max-width: 840px;
+}
+
+
+.grid {
+color: WHITE;
+text-transform: uppercase;
+text-align: center;
+display: flex; 
+flex-flow: row wrap;
+margin: 0 auto;
+
+}
+
+
+.footer a { 
+color: #e2574c; 
+}
+ 
+.product-intro { 
+min-width:100%;
+justify-content:center;
+text-align:center;
+height:900px;
+display:flex;
+background: url("../images/flower-bkgd.jpg") center center no-repeat;
+background-size: cover;
+padding-top: 30px
+
+}
+
+
+.banner-text {
+min-width:100%;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 30%;
+font-size: 24px;
+background: url("../images/banner-girl.png") center center no-repeat;
+background-size: contain;
+
+}
+
+.button {
+    border-radius: 25px;
+}
+.input-group-field {
+    border-radius:25px;
+}
+.signup {
+height: 200px;
+margin: 0 auto;
+background: url("../images/wave-bkgd.jpg") bottom center no-repeat;
+text-align: center;
+padding-top: 100px;
+}
+
+.footer {
+max-width: 840px; 
+margin: 0 auto; 
+height:50vh;
+display:flex;  
+justify-content:space-between;
+padding-left: -50px;
+padding-right: -50px;
+background-position: bottom center;
+} 
+ 
+
+.links {
+justify-content:flex-end;
+
+
+}
