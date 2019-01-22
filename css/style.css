@@ -1,246 +1,482 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('../fonts/Raleway-LightItalic.eot');
-    src: url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-LightItalic.woff') format('woff'),
-        url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
-        url('../fonts/Raleway-LightItalic.svg') format('svg');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-LightItalic.eot");
+  src: url("../fonts/Raleway-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway-LightItalic.woff") format("woff"),
+    url("../fonts/Raleway-LightItalic.ttf") format("truetype"),
+    url("../fonts/Raleway-LightItalic.svg") format("svg");
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('../fonts/Raleway-Light.eot');
-    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-Light.woff') format('woff'),
-        url('../fonts/Raleway-Light.ttf') format('truetype'),
-        url('../fonts/Raleway-Light.svg') format('svg');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Light.eot");
+  src: url("../fonts/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Light.woff") format("woff"),
+    url("../fonts/Raleway-Light.ttf") format("truetype"),
+    url("../fonts/Raleway-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('../fonts/Raleway-Medium.eot');
-    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-Medium.woff') format('woff'),
-        url('../fonts/Raleway-Medium.ttf') format('truetype'),
-        url('../fonts/Raleway-Medium.svg') format('svg');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Medium.eot");
+  src: url("../fonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Medium.woff") format("woff"),
+    url("../fonts/Raleway-Medium.ttf") format("truetype"),
+    url("../fonts/Raleway-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('../fonts/Raleway-MediumItalic.eot');
-    src: url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-MediumItalic.woff') format('woff'),
-        url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
-        url('../fonts/Raleway-MediumItalic.svg') format('svg');
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-MediumItalic.eot");
+  src: url("../fonts/Raleway-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway-MediumItalic.woff") format("woff"),
+    url("../fonts/Raleway-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Raleway-MediumItalic.svg") format("svg");
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('../fonts/PlayfairDisplay-Regular.eot');
-    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
-        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
-        url('../fonts/PlayfairDisplay-Regular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/PlayfairDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('../fonts/PlayfairDisplay-BoldItalic.eot');
-    src: url('../fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
-        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
-        url('../fonts/PlayfairDisplay-BoldItalic.svg') format('svg');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.eot");
+  src: url("../fonts/PlayfairDisplay-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-BoldItalic.svg") format("svg");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('../fonts/PlayfairDisplay-Italic.eot');
-    src: url('../fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/PlayfairDisplay-Italic.woff') format('woff'),
-        url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
-        url('../fonts/PlayfairDisplay-Italic.svg') format('svg');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.eot");
+  src: url("../fonts/PlayfairDisplay-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('../fonts/PlayfairDisplay-Bold.eot');
-    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
-        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
-        url('../fonts/PlayfairDisplay-Bold.svg') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.eot");
+  src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
+
+body,
+p,
+a {
+  font-size: 16px;
+  font-style: Raleway;
+}
+
 .header-container {
-min-width: 840px;
-max-height: 100px;
-display:flex;
-justify-content:space-between;
-flex-direction:row;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .logo {
-    margin: 0 auto;
-    flex:1 0 25%;
-    padding-left: 80px;
-    margin-top: -10px;
-    margin-left: -40px;
+  margin: 0 auto;
+  flex: 1 0 25%;
+  cursor: pointer;
+  padding-left: 60px;
 }
 
 .cart {
-    margin: 0 auto;
-    flex:1 0 25%;
-    margin-top: 10px;
-    padding-right: 40px;
-    margin-right: -400px;
+  flex: auto;
+  padding-top: 10px;
 }
 
 .resize {
-    max-width: 60%;
-    max-height: 60%;
+  height: 140px;
 }
-.resize-2 {
- max-width: 75%;
- max-height: 75%;
-}
-.main-navigation {
-    flex:1 0 50%;
 
+.resize-2 {
+  width: 160px;
+  height: 160px;
 }
-.main-navigation ul{
-    padding-top: 20px;
-    margin: 20px auto;
-    list-style:none;
-    display:inline-block;
-    justify-content: space-between;
+
+.main-navigation {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: center;
 }
+
+.main-navigation ul {
+  padding-top: 20px;
+  margin: 20px auto;
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  border-top: 2px solid #d7d7d7;
+}
+
 .main-navigation li {
-    list-style:none;
-    display:inline;
-    text-transform:uppercase;
-    padding: 20px;
-    
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.main-navigation li a {
+  text-align: center;
+  color: #e2574c;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 1em;
 }
 
 body {
- margin: 0;
- align-content: center;
- font-family:'Raleway' ;
- font-style:italic;
- font-weight:lighter;
-}
-.h1 {
-    font-family: "Playfair-Display";
-}
-
-.h3 {
-color: red;
+  max-width: 100%;
+  align-content: center;
+  font-family: Raleway, sans-serif;
+  font-size: 100%;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 2;
 }
 
-.p {
-font-size:16px; 
-font-style: italic; 
+h1 {
+  font-weight: 400;
+  color: white;
+  font-size: 4rem;
 }
 
-.container {  
-margin: 0 auto; 
-text-align: center;
-padding-top: 40px;
-padding-bottom: 40px;
-}
-.carousel {
-display: flex;
-flex-flow: row wrap;
+h2 {
+  font-weight: bold;
 }
 
-.info {
-max-width: 840px;
+h3 {
+  color: red;
 }
 
-
-.grid {
-color: WHITE;
-text-transform: uppercase;
-text-align: center;
-display: flex; 
-flex-flow: row wrap;
-margin: 0 auto;
-
+.container {
+  font-size: 60px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
-
-.footer a { 
-color: #e2574c; 
+.product-intro {
+  min-width: 100%;
+  justify-content: center;
+  text-align: center;
+  height: 900px;
+  display: flex;
+  background: url("../images/flower-bkgd.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 30px;
 }
- 
-.product-intro { 
-min-width:100%;
-justify-content:center;
-text-align:center;
-height:900px;
-display:flex;
-background: url("../images/flower-bkgd.jpg") center center no-repeat;
-background-size: cover;
-padding-top: 30px
-
-}
-
 
 .banner-text {
-min-width:100%;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
-top: 30%;
-font-size: 24px;
-background: url("../images/banner-girl.png") center center no-repeat;
-background-size: contain;
+  min-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  font-size: 24px;
+  background: url("../images/banner-girl.png") center center no-repeat;
+  background-size: contain;
+}
 
+.banner-title > p {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 120px;
+}
+.info {
+  font-size: 40px;
+  max-width: 840px;
+}
+
+.info p {
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.grid {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  color: WHITE;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.mens-products {
+  background: url("../images/mens-category.jpg");
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.mens-products::before {
+  padding-top: 50%;
+  content: " ";
+  display: block;
+}
+
+.trends-products {
+  background: url("../images/trends-category.jpg") no-repeat;
+  width: calc(50% - 10px);
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.trends-products::before {
+  padding-top: 100%;
+  content: " ";
+  display: block;
+}
+
+.glasses-products {
+  background: url("../images/glasses-category.jpg") no-repeat;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.glasses-products::before {
+  padding-top: 100%;
+  content: " ";
+  display: block;
+}
+
+.sale-products {
+  background: url("../images/sale-category.jpg") no-repeat;
+  width: calc(50% - 10px);
+  margin-top: 10px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.sale-products::before {
+  padding-top: 100%;
+  content: " ";
+  display: block;
+}
+
+.bags-products {
+  background: url("../images/bags-category.jpg") no-repeat;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.bags-products::before {
+  padding-top: 100%;
+  content: " ";
+}
+
+.womens-products {
+  background: url("../images/womens-category.jpg") no-repeat;
+  width: 100%;
+  margin-top: 20px;
+  background-size: cover;
+}
+
+.womens-products::before {
+  padding-top: 50%;
+  content: " ";
+  display: block;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+
+.product-wheel {
+  margin-bottom: 80px;
+}
+
+.product-wheel p,
+h3 {
+  padding-right: 20px;
+}
+
+.flickity-viewport {
+  padding-bottom: 80px;
+}
+
+.input-group-field {
+  border-radius: 25px;
+}
+
+.signup {
+  height: 200px;
+  margin: 0 auto;
+  background: url("../images/wave-bkgd.jpg") bottom center no-repeat;
+  text-align: center;
+
+  padding-bottom: 450px;
+}
+
+.signup-text,
+.signup-text > p {
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 .button {
-    border-radius: 25px;
+  border-radius: 25px;
+  height: 20px;
+  width: 80px;
+  background-color: #b64036;
+  color: white;
+  font-size: 10px;
 }
-.input-group-field {
-    border-radius:25px;
-}
-.signup {
-height: 200px;
-margin: 0 auto;
-background: url("../images/wave-bkgd.jpg") bottom center no-repeat;
-text-align: center;
-padding-top: 100px;
+
+.simple-subscription-form {
+  color: white;
 }
 
 .footer {
-max-width: 840px; 
-margin: 0 auto; 
-height:50vh;
-display:flex;  
-justify-content:space-between;
-padding-left: -50px;
-padding-right: -50px;
-background-position: bottom center;
-} 
- 
-
-.links {
-justify-content:flex-end;
-
-
+  line-height: 1;
+  font-size: 50px;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 50vh;
+  display: block;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  background-position: bottom center;
+  background-color: #242424;
+  margin-top: 20px;
 }
+
+.footer a {
+  color: white;
+}
+
+.footer-info {
+  color: white;
+}
+
+.footer-info p,
+a,
+br {
+  font-size: 40px;
+}
+
+.address {
+  color: #969696;
+}
+
+.aloha-link,
+.aloha-link a {
+  font-size: 40px;
+}
+
+.links ul {
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #d7d7d7;
+}
+
+/* ========================= Mobile Responsive Start ==================== */
+/* ========================= Mobile Responsive Start ==================== */
+/* ========================= Mobile Responsive Start ==================== */
+/* ========================= Mobile Responsive Start ==================== */
+
+@media (max-width: 599px) {
+  .main-navigation {
+    order: 3;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 320px) {
+  .header-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .header-container {
+    margin-bottom: 80px;
+    margin-top: 20px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1240px) {
+}
+
+/* ========================= Mobile Responsive End ==================== */
+/* ========================= Mobile Responsive End ==================== */
+/* ========================= Mobile Responsive End ==================== */
+/* ========================= Mobile Responsive End ==================== */
