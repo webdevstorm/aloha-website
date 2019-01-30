@@ -21,6 +21,8 @@
 <!-- -->
 
 <body>
+        <a class="screen-reader-text" href="#main">Skip to content</a>
+        
     <header class="header-container">
         <div class="logo">
             <h1 class="screen-reader"> </h1>
@@ -65,7 +67,10 @@
         </div>
     </section>
 
-    <section class="info container">
+        <main id="main" class="site-main" tabindex="-1">
+             
+
+     <section class="info container">
         <h2> <i> Hand-Crafted </i> Styles </h2>
         <p> Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products
             or sign-up for updates below.</p>
@@ -195,7 +200,8 @@
         </div>
 
     </section>
-
+</main>
+   
     <!-- -->
 
     <footer class="footer">
@@ -228,7 +234,7 @@
         </div>
 
     </footer>
-
+    <script src="tota11y-0.1.6/build/tota11y.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"> </script>
 <script src="js/flickity.pkgd.min.js"> </script>
 <script src="js/index.js"> </script>

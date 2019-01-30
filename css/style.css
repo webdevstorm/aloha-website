@@ -92,6 +92,10 @@
   font-style: normal;
 }
 
+#main[tabindex="-1"]:focus {
+  outline: 0;
+}
+
 body,
 p,
 a {
@@ -480,3 +484,19 @@ br {
 /* ========================= Mobile Responsive End ==================== */
 /* ========================= Mobile Responsive End ==================== */
 /* ========================= Mobile Responsive End ==================== */
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
